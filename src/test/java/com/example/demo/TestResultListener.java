@@ -7,7 +7,7 @@ public class TestResultListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println(result.getMethod().getMethodName() + " - ");
+        System.out.println(result.getMethod().getMethodName() + " - PASS");
     }
 
     @Override
